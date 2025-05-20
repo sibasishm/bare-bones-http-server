@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bare Bones HTTP Server</title>
+		<style>
+			body {
+				font-family: system-ui, -apple-system, sans-serif;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 2rem;
+				line-height: 1.6;
+			}
+			h1 {
+				color: #2563eb;
+			}
+			.endpoint {
+				background: #f3f4f6;
+				padding: 1rem;
+				border-radius: 0.5rem;
+				margin: 1rem 0;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Bare Bones HTTP Server</h1>
+		<p>Welcome to our custom HTTP server! Try these endpoints:</p>
+
+		<div class="endpoint">
+			<h3>GET /api/hello</h3>
+			<p>Returns a hello message</p>
+		</div>
+
+		<div class="endpoint">
+			<h3>POST /api/echo</h3>
+			<p>Echoes back your request body</p>
+		</div>
+	</body>
+</html>
